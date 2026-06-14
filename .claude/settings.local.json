@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\kimic\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Write-Output)",
+      "PowerShell(Stop-Process *)",
+      "Bash(npm run *)",
+      "Bash(npm i *)",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} taskkill //PID {} //F)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\kimic\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" -Recurse)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(node --input-type=module -e \"import './server/index.ts'\")",
+      "Bash(npx tsx *)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H \"Content-Type: application/json\" -d \"{\\\\\"username\\\\\":\\\\\"testuser\\\\\",\\\\\"email\\\\\":\\\\\"test@test.com\\\\\",\\\\\"password\\\\\":\\\\\"password123\\\\\"}\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(npx tsc *)",
+      "PowerShell(Get-Process *)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H 'Content-Type: application/json' -d '{\"username\":\"pirate\",\"email\":\"pirate@sea.com\",\"password\":\"treasure123\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' -X POST http://localhost:3001/api/auth/signup -H 'Content-Type: application/json' -d '{\"username\":\"pirate2\",\"email\":\"pirate@sea.com\",\"password\":\"treasure123\"}')",
+      "Bash(curl -s http://localhost:3001/api/auth/signin -X POST -H \"Content-Type: application/json\" -d '{\"email\":\"x\",\"password\":\"x\"}')",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(vercel --yes --prod)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git -C \"C:\\\\Users\\\\kimic\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" rev-parse --git-dir)",
+      "Bash(git -C \"C:\\\\Users\\\\kimic\\\\claude_code_project_demo\\\\claude_code_treasure_game-initial\" remote -v)",
+      "PowerShell(gh *)",
+      "PowerShell(git config *)",
+      "PowerShell(winget install *)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth status 2>&1)"
+    ]
+  }
+}
